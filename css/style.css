@@ -1,12 +1,10 @@
-body {
+html {
     font-family: 'Playfair Display', serif;
     line-height: 28px;
     font-size: 18px;
     color: #777777;
     background: url("./110099full\ \(1\).jpg");
-
 }
-
 * {
     box-sizing: border-box;
 }
@@ -47,9 +45,6 @@ h1 {
     font-size: 36px;
     line-height: 49px;
     border-bottom: 5px solid #e585ee;
-}
-h3 {
-
 }
 
 #header {
@@ -148,5 +143,11 @@ input[type=submit] {
     height: 35vh;
 }
 #train-schedule {
+    height: 35vh;
+}
+#crystal {
+    height: 35vh;
+}
+#powerful {
     height: 35vh;
 }

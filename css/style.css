@@ -141,3 +141,12 @@ input[type=submit] {
     background: rgba(126, 65, 126, 0.219);
     border: 2px dotted #d1d1d1;
 }
+#trivia {
+    height: 35vh;
+}
+#psychic {
+    height: 35vh;
+}
+#train-schedule {
+    height: 35vh;
+}

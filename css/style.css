@@ -18,7 +18,12 @@ html {
 #me {
     font-family: 'Playfair Display', serif;
     font-size: 36px;
-    padding-top: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #a237ac;
+}
+#me:hover {
+    border: 2px solid  rgb(255, 223, 193); 
 }
 
 h1,
@@ -35,7 +40,6 @@ p:last-child {
 h1,
 h2,
 h3 {
-    font-family: 'News Cycle', sans-serif;
     font-weight: 700;
     color: #fff1dd;
 }
@@ -45,6 +49,7 @@ h1 {
     font-size: 36px;
     line-height: 49px;
     border-bottom: 5px solid #e585ee;
+    font-family: 'Playfair Display', serif;
 }
 
 #header {
@@ -63,7 +68,7 @@ nav {
 }
 
 .nav-names li a {
-    color: #c970d1;
+    color: #8d1a97;
     text-decoration: none;
     padding: 5px 20px;
     font-size: 18px;
@@ -82,12 +87,14 @@ nav {
     float: left;
     width: 100%;
     max-width: 960px;
+    height: fit-content;
     padding: 30px;
     margin: 0 0 40px;
-    background: rgba(126, 65, 126, 0.219);
-    border: 2px dotted #d1d1d1;
+    background: rgba(95, 49, 95, 0.418);
 }
-
+.main-section {
+    margin-top: 100px;
+}
 #contact ul {
     margin-bottom: 10px;
 }
@@ -131,8 +138,7 @@ input[type=submit] {
     width: fit-content;
     padding: 30px;
     margin: 0;
-    background: rgba(126, 65, 126, 0.219);
-    border: 2px dotted #d1d1d1;
+    background: rgba(95, 49, 95, 0.418);
 }
 #trivia {
     height: 35vh;
@@ -149,3 +155,23 @@ input[type=submit] {
 #powerful {
     height: 35vh;
 }
+#negotiator {
+    height: 35vh;
+}
+p {
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 960px) {
+  }
+  
+  @media screen and (max-width: 768px) {
+    #header {
+     float: left;
+    }
+  }
+  
+  @media (max-width: 560px) {
+    #header {
+      float: left;
+    }
+  }
